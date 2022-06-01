@@ -1,7 +1,7 @@
 package brute_force;
 
 import java.io.*;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Sol_15651 {
     static StringBuilder sb = new StringBuilder();
