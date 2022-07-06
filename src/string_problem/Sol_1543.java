@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Sol_1543 {
     static int solution(String str, String target) {
         int answer = 0;
-        int start = 0, len = target.length();
+        int len = target.length();
 
         for(int i = 0; i < str.length() - len + 1; i++) {
             if(target.equals(str.substring(i, i+len))) {
