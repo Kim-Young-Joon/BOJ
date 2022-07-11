@@ -37,9 +37,3 @@ public class Sol_5800 {
         solution(classes);
     }
 }
-/*
-Class 1
-Max 78, Min 23, Largest gap 46
-Class 2
-Max 99, Min 25, Largest gap 25
- */
