@@ -1,0 +1,25 @@
+HashMap
+1. getOrDefault(x, 0);
+    HashMap 에서 x 를 key 값으로 가지는 것을 찾아서 그에 해당하는 value return
+    만약 해당 값을 key 값으로 하는 값이 없다면 두번째 인자 (여기에서는 0) 을 return
+
+2. keySet(); : HashMap 의 key 값들을 순차적으로 return
+    HashMap 은 순서가 없기 때문에 순차적으로 무언가를 하려고 할 때 for 문과 함께 사용함
+
+TreeSet : 중복을 제거하면서 정렬도 자동으로 되는 자료구조
+    Red-Black Tree 로 구현되어 있음
+1. 생성
+    기본적으로 만들게 되면 오름차순으로 정렬하는 구조가 됨
+    아래와 같이 인자를 넣어주면 내림차순으로 정렬
+    TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
+
+2. 추가
+    add() : 값을 추가하는데 값을 추가할 때 마다 생성할 때의 기준에 맞춰서 정렬 ()
+
+3. 삭제
+    remove() : 인자로 들어오는 값을 삭제
+    clear() : 모든 값 제거
+
+4. 탐색
+    first() : 오름차순일 경우 최솟값을 return 내림차순일 경우 최대값을 return 함
+    last() : first의 반대 (오름차순 : 최대값 , 내림차순 : 최솟값)
