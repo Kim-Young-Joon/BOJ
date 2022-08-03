@@ -1,0 +1,7 @@
+Stack : LIFO (Last In, First Out)
+    push : stack 에 데이터 넣기
+    pop : stack 에서 데이터 빼내기 (빼낸 값을 리턴함)
+    peek : stack 의 최상단의 값을 리턴 (빼내는 것이 아님)
+    isEmpty : stack 이 비어 있으면 true, 비어 있지 않으면 false
+
+** stack 에 먼저 들어간 순서대로 index 0 부터 시작함
